@@ -9,16 +9,18 @@ body{
 	padding-top: 13%;
 }
 .laris .card:hover{
-	box-shadow: 1px 1px 1px 1px grey;
-	transition: .5s;
+	/*box-shadow: 1px 1px 1px 1px grey;*/
+	-webkit-box-shadow: -1px 1px 14px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 1px 14px 0px rgba(0,0,0,0.75);
+	box-shadow: -1px 1px 14px 0px rgba(0,0,0,0.75);
+	transition: .6s;
 }
 
 
-@media(min-width: 400px) and (max-width: 768px){
+@media screen and (min-width: 400px) and (max-width: 768px){
 	.banner{
 		padding-bottom: 20%;
-		padding-top: 20%;
-	}
+		padding-top: 33%;
 	/*.laris{
 		display: flex;
 	}
@@ -26,3 +28,71 @@ body{
 		flex-grow: 1;
 	}
 */}
+
+@media screen and (max-width: 767px){
+	.baru{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.baru .anyar{
+		width: 50%;
+	}
+	.unggul{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		text-align: center;
+	}
+	.unggul .satu{
+		width: 50%;
+	}
+	.unggul .dua{
+		width: 50%;
+	}
+	.unggul .tiga{
+		width: 50%;
+	}
+	.unggul .empat{
+		width: 50%;
+	}
+	.sale .satu{
+		width: 50%;
+	}
+	.sale .dua{
+		width: 50%;
+	}
+	.sale .tiga{
+		width: 50%;
+	}
+	.sale .empat{
+		width: 50%;
+	}
+
+	.laris{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.laris .satu{
+		width: 50%;
+	}
+	.laris .dua{
+		width: 50%;
+	}
+	.laris .tiga{
+		width: 50%;
+	}
+	.laris .empat{
+		width: 50%;
+	}
+	.laris .lima{
+		width: 50%;
+	}
+	.laris .enam{
+		width: 50%;
+	}
+}
