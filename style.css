@@ -137,4 +137,14 @@ body{
 	.laris .enam{
 		width: 50%;
 	}
+
+	.produk{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.produk .prod{
+		width: 33%;
+	}
 }
