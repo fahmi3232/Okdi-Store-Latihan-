@@ -3,11 +3,23 @@
 body{
 	padding-bottom: 100px; 
 }
+
 .navbar{
 	height: 80px;
 }
 .muat{
-	width: 50%;
+	width: 60%;
+	text-align: center;
+	padding-left: 20px;
+	box-shadow: 
+}
+.muat .btn{
+	color: #fff;
+	border: 1px solid #fff;
+}
+.muat .btn:hover{
+	color: black;
+	background-color: #fff;
 }
 .banner{
 	background-image: radial-gradient( circle 968px at 1.9% 48.8%, rgba(18,16,215,1) 0%, rgba(137,24,182,1) 51.5%, rgba(230,25,51,1) 100.2% );
@@ -81,6 +93,38 @@ body{
 	column-gap: 40px;
 
 }
+
+.laku .card:hover{
+	-webkit-box-shadow: -1px 1px 14px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 1px 14px 0px rgba(0,0,0,0.75);
+	box-shadow: -1px 1px 14px 0px rgba(0,0,0,0.75);
+	transition: .6s;
+}
+.laku .satu h5{
+	font-size: 18px;
+}
+.laku .satu p{
+	font-size: 14px;
+	color: red;
+}
+.laku .satu .btn{
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 400px) and (max-width: 768px){
 	.banner-2{
@@ -165,19 +209,22 @@ body{
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		text-align: center;
+		/*text-align: center;*/
+	}
+	.sale .carousel{
+
 	}
 	.sale .satu{
-		width: 50%;
+		width: 33%;
 	}
 	.sale .dua{
-		width: 50%;
+		width: 33%;
 	}
 	.sale .tiga{
-		width: 50%;
+		width: 33%;
 	}
 	.sale .empat{
-		width: 50%;
+		width: 33%;
 	}
 
 	.laris{
@@ -228,4 +275,78 @@ body{
 		z-index: 1000;
 	}
 
+	.koleksi{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		
+	}
+	.koleksi .satu{
+		width: 50%;
+		align-items: center;
+		text-align: center;
+	}
+	.kolek{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		/*padding-right: 10px;*/
+		padding-bottom: 7px;
+	}
+	.koleksi .kolek .dua{
+		width: 33%;
+		text-align: center;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.banner-new{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding-bottom: 15px;
+	}
+	.banner-new .satu{
+		width: 50%;
+		align-items: center;
+		padding-left: 28px;
+		padding-top: 15px;
+	}
+	.banner-new .satu h5, h6{
+		padding-right: 24px;
+	}
+
+	.laku{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.laku .satu{
+		width: 33%;
+	}
+	.laku .satu .btn{
+		font-size: 9px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+	.banner-new{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding-bottom: 15px;
+	}
+	.banner-new .satu{
+		width: 33%;
+		align-items: center;
+		padding-top: 50px;
+		padding-left: 30px;
+	}
+	.banner-new .satu h5, h6{
+		padding-right: 24px;
+	} 
 }
